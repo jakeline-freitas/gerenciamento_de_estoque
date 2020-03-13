@@ -1,0 +1,77 @@
+
+  <!DOCTYPE html>
+	<html layout:decorate="~{layout}">
+    <head>
+     <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
+    </head>
+
+    <body>
+     
+     <section class="row container col s12 m8 l9 layout-content" layout:fragment="corpo">
+		 <table>
+		        <thead>
+		          <tr>
+		              <th>Name</th>
+		              <th>Item Name</th>
+		              <th>Item Price</th>
+		              <th><span class="material-icons">settings</span></th>
+		          </tr>
+		        </thead>
+		
+		        <tbody>
+		          <tr>
+		            <td>Alvin</td>
+		            <td>Eclair</td>
+		            <td>$0.87</td>
+		            <td>
+		            <a class="btn-floating btn-large waves-effect waves-light "><i class="material-icons">edit</i></a>
+		            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete_forever</i></a>
+		            </td>
+		          </tr>
+		          <tr>
+		            <td>Alan</td>
+		            <td>Jellybean</td>
+		            <td>$3.76</td>
+		            <td>
+		            	<a class="btn-floating btn-large waves-effect waves-light "><i class="material-icons">edit</i></a>
+		            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete_forever</i></a>
+		            </td>
+		          </tr>
+		          <tr>
+		            <td>Jonathan</td>
+		            <td>Lollipop</td>
+		            <td>$7.00</td>
+		            <td>
+		            <a class="btn-floating btn-large waves-effect waves-light "><i class="material-icons">edit</i></a>
+		            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete_forever</i></a>
+		            </td>
+		          </tr>
+		          <tr>
+		            <td>Jonathan</td>
+		            <td>Lollipop</td>
+		            <td>$7.00</td>
+		            <td>
+		            <a class="btn-floating btn-large waves-effect waves-light "><i class="material-icons">edit</i></a>
+		            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete_forever</i></a>
+		            </td>
+		          </tr>
+		        </tbody>
+		      </table>
+	</section>
+   
+
+    
+      
+
+      <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="/materialize/js/jquery-3.2.1.min.js"></script>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="/materialize/js/materialize.min.js"></script>
+
+      <script type="text/javascript">
+        $('select').formSelect();
+       $('select').material_select();
+      </script>
+    </body>
